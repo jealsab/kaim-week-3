@@ -1,0 +1,5 @@
+outs:
+- md5: 6d3af032536e145b552959c1e630798b
+  size: 529364025
+  hash: md5
+  path: MachineLearningRating_v3.txt
