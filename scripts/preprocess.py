@@ -23,4 +23,9 @@ def preprocess(data):
     # Display the results
     print("\nMissing Values in Each Column:")
     print(missing_values)
+    
+    variability = data[num_col].agg(['std', 'var', 'max', 'min'])
+    print("\nVariability of Numerical Features:")
+    print(variability)
+
 
